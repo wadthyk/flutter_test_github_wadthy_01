@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Withy Demo Home Page'),
+      home: MyHomePage(title: 'Wadthy Demo Home Page'),
     );
   }
 }
@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have smashed the button that often:',
+              'Du hast diesen Knopf so oft gedrückt:',
             ),
             Text(
               '$_counter',
@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: Icon(Icons.category),
+        child: Icon(Icons.pregnant_woman),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
